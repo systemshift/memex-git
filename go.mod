@@ -1,10 +1,9 @@
-module memex-git
+module github.com/systemshift/memex-git
 
 go 1.21
 
 require (
 	github.com/go-git/go-git/v5 v5.11.0
-	github.com/systemshift/memex v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -30,5 +29,3 @@ require (
 	golang.org/x/tools v0.13.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
-
-replace github.com/systemshift/memex => ../

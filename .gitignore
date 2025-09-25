@@ -1,0 +1,24 @@
+# Binaries
+memex-git
+*.exe
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Test binaries
+*.test
+
+# Coverage files
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
